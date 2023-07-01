@@ -228,6 +228,12 @@ h2{
 }
 .p1{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   direction: rtl;
 }
+  @media screen and (max-width: 768px) {
+    .p1 {
+      font-size: 15px;
+      word-spacing: 15px;
+    }
+  }
