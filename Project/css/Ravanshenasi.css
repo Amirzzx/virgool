@@ -1,0 +1,244 @@
+body{
+    background-color: rgb(255, 255, 255);
+  }
+.logo{
+    width: 5.5%;
+    padding: 5px;
+    float: right;
+}
+p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  float: right;
+  padding-top: 10px;
+  padding-right: 10px;
+  font-size: 150%;
+}
+input{
+  min-width: 5%;
+  width: 40%;
+  display: flex;
+  height: 35px;
+  float: right;
+  margin-top: 25px;
+  margin-right: 75px;
+  border: solid 2px #b57cc1;
+  border-radius: 5px;
+  background-color: rgb(249, 249, 249);
+}
+input:focus{
+  background-color: #e6ebf1;
+}
+#search{
+  width: 50px;
+  font-size: 200%;
+  float: right;
+  margin-top: 30px;
+  margin-right: -13px;
+}
+.fa-solid{
+  font-size: 200%;
+  margin-top: 30px;
+  margin-left: 50px;
+  color: #b57cc1;
+}
+#shop{
+  font-size: 200%;
+  margin-top: 30px;
+  margin-left: 50px;
+  color: #b57cc1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b57cc1;
+  width: 100%;
+  border-radius: 7px;
+}
+li {
+    float: right;
+    margin-right: 180px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 7px;
+  }
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(110, 47, 114);
+  }
+  .dropdown-content :hover{
+    transition: 0.2s;
+    font-size: 18px;
+  }
+li.dropdown {
+    display: inline-block;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.header{
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.flex-container > div {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  line-height: 22px;
+  font-size: larger;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.div-border{
+  border-bottom: solid #b57cc1 2px;
+}
+.img2{
+  width: 200%;
+  border-radius: 5px;
+}
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-radius: 6px;
+}
+.mahsool{
+    color: red;
+  }
+.img2:hover{
+  opacity: 0.8;
+}
+#i1{
+  width: 100%;
+  height: 65%;
+  border-radius: 5px;
+}
+#i1:hover{
+  opacity: 0.8;
+}
+.flex-bottom{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.flex-bottom div{
+  background-color: #b57cc1;
+  width: 100%;
+  margin: 10px;
+  line-height: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  border-radius: 100rem;
+}
+@media screen and (max-width: 800px) {
+  .flex-bottom{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:700px) {
+  .flex-container{
+    flex-direction:column;
+
+  }
+}
+@media screen and (max-width:700px) {
+  .flex-container div{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+.flex-bottom h2{
+  color: white;
+}
+@media screen and (max-width:768px){
+  .img-taqvim{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+@media screen and (max-width:768px){
+  .image , .Ash , .Adami , .ban {
+    width: 100%;
+  }
+}
+.bar{
+  background-color: white;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  height: 15%;
+  padding-bottom: 30px;
+  border-bottom: solid #b57cc1;
+}
+@media screen and (max-width: 768px) {
+  .bar{
+    width: 150%;
+    display:contents;
+  }
+}
+@media screen and (max-width: 768px) {
+  #shop , .fa-solid , #search {
+    font-size: 100%;
+    margin-right: 5px;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 100%;
+    direction: ltr;
+    word-spacing: -10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  input {
+    width: 30%;
+    display: flex;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 17%;
+  }
+}
