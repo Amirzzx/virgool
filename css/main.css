@@ -286,7 +286,7 @@ h2{
 }
 @media screen and (max-width: 768px) {
   .bar{
-    width: 150%;
+    width: 30%;
     display:contents;
   }
 }
@@ -313,5 +313,10 @@ h2{
 @media screen and (max-width: 768px) {
   .logo {
     width: 17%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .i1 {
+    width: 15%;
   }
 }
